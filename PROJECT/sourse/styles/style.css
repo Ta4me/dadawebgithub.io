@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    background: linear-gradient(0deg, #ff0000 0%, #cc6666 98%, #ffffff 100%);
+    
+}
+.card-img-top {
+	background-color: rgb(201, 200, 200);
+    
+}
+section {
+    background-color: rgb(201, 200, 200);
+    
+}
+.dsadac {
+	display: flex;
+	justify-content: center;
+}
+.containers {
+    padding: 15px;
+}
+
+.card-body {
+    text-align: center;
+    background: linear-gradient(200deg, #ff0000 0%, #cc6666 98%, #ffffff 100%);
+
+}
+
+.carouselExample {
+	margin: 10px;
+}
+
+.card-title {
+	color: rgb(0, 0, 0);
+}
+.card-text {
+	color: rgb(70, 2, 8);
+}
+.containers {
+	justify-content: center;
+}
+.row {
+    display: grid;
+    justify-content: auto;
+    align-items: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4);
+    margin-left: 0;
+    margin-right: 0;
+}
+.col {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+.container-fluid img {
+    width: 80px;
+	
+    
+}
+.img-anim:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+	
+}
+
+
+.footer-text {
+    text-align: center;
+	font-size: large;
+	color: black;
+}
+
+footer {
+    background: linear-gradient(0deg, #ff0000 0%, #cc6666 98%, #ffffff 100%);
+    
+}
+
+
+
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+@media (max-width:1000px) {
+    .row {
+        grid-template-columns: 1fr 1fr ;
+        justify-content: center;
+        align-items: center;
+		
+    }
+}
+@media (max-width:600px) {
+    .row {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
