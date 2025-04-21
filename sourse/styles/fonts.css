@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    background: linear-gradient(0deg, #ff0000 0%, #cc6666 98%, #ffffff 100%);
+    
+}
+
+section {
+    background-color: rgb(201, 200, 200);
+    
+    
+}
+.dssaaa {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.texs {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.margcar {
+    margin-top: 15px;
+	margin-bottom: 15px;
+   
+}
+.vbsad {
+    background: none;
+}
+.sss {
+	background: none;
+
+}
+
+
+.footer-text {
+	text-align: center;
+	font-size: large;
+    color: rgb(0, 0, 0);
+    
+   
+}
+
+footer {
+    background: linear-gradient(0deg, #ff0000 0%, #cc6666 98%, #ffffff 100%);
+    
+}
+
+.img-anim:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+}
+
+.container-fluid img {
+    width: 80px;
+    
+	
+    
+}
+
+.foot-a {
+	text-decoration: none;
+}
+.btn-group {
+	margin-top: 20px;
+	
+}
+.bes {
+	background-color: #000000;
+}
+.pravo {
+	margin-top: 10px;
+}
+.jes {
+    padding: 50px;
+    margin-top: 10px;
+}
